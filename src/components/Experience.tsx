@@ -18,7 +18,7 @@ const Experience = () => {
         "Support student well-being and engagement through structured coaching conversations and reflective exercises."
       ],
     },
-        {
+    {
       role: "Alumni Data & Engagement Analyst",
       company: "George Mason University - Office of Advancement",
       location: "Fairfax, USA",
@@ -26,25 +26,25 @@ const Experience = () => {
       current: true,
       gradient: "from-emerald-500 to-teal-500",
       highlights: [
-       "Maintained and optimized alumni data workflows across Salesforce CRM and internal pledge-tracking systems, enabling accurate and scalable engagement operations.",
-        "Performed advanced data cleansing, entity-resolution, and segmentation processes to enhance data quality across fundraising datasets.",
-        "Developed automated contact lists and performance dashboards that supported strategic outreach for advancement and donor relations teams.",
-        "Analyzed engagement trends and donor behavior patterns, delivering data-driven recommendations that improved campaign targeting and conversion outcomes."
+        "Maintained and optimized alumni data workflows across Salesforce CRM and internal pledge-tracking systems.",
+        "Performed data cleansing, entity-resolution, and segmentation processes to enhance fundraising datasets.",
+        "Developed automated contact lists and dashboards supporting donor outreach and engagement campaigns.",
+        "Analyzed alumni engagement patterns to support data-driven advancement strategies."
       ],
     },
     {
       role: "Outdoor Supervisor",
-      company: "George Mason Recreational Department",
+      company: "George Mason Recreation",
       location: "Fairfax, USA",
       period: "January 2025 – August 2025",
       current: false,
       gradient: "from-blue-500 to-cyan-500",
       highlights: [
-        "Directed operational workflows for large-scale outdoor athletic facilities, maintaining reliability and safety across high-traffic campus zones.",
-        "Oversaw real-time coordination of athletic events, club sports, and intramurals, streamlining processes through structured communication systems.",
-        "Developed and enforced technical risk-management frameworks, conducting systematic safety inspections and compliance checks.",
-        "Captured and analyzed facility usage and participant activity metrics, providing data insights that informed resource allocation and staffing decisions."
-      ],  
+        "Managed daily operations and safety oversight for outdoor recreational facilities.",
+        "Coordinated club sports and intramural activities in high-traffic campus spaces.",
+        "Conducted safety inspections and ensured compliance with recreation department protocols.",
+        "Tracked facility usage and participation metrics to support staffing and scheduling decisions."
+      ],
     },
     {
       role: "Web Developer Intern",

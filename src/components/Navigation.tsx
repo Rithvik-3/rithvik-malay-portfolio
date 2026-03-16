@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import { Menu, X, Download, Home, User, Briefcase, Code, Award, Mail } from "lucide-react";
+import { Menu, Download, Home, User, Briefcase, Code, Award, Mail } from "lucide-react";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
 const Navigation = () => {
@@ -60,14 +60,6 @@ const Navigation = () => {
     }
   };
 
-  const handleDownloadResume = () => {
-    // This will trigger download of the resume PDF
-    // For now, it will just show an alert. User should add their resume PDF to public folder
-    alert("Please add your resume PDF to the public folder and update this link!");
-    // Uncomment below when resume is added:
-    // window.open('/resume.pdf', '_blank');
-  };
-
   return (
     <>
       <nav
@@ -109,13 +101,15 @@ const Navigation = () => {
             {/* Desktop CTA */}
             <div className="hidden md:flex items-center gap-3">
               <Button
+                asChild
                 variant="outline"
                 size="sm"
-                onClick={handleDownloadResume}
                 className="border-accent/50 hover:border-accent hover:bg-accent/10"
               >
-                <Download className="w-4 h-4 mr-2" />
-                Resume
+                <a href="/resume.pdf" download="Rithvik-Malay-Resume.pdf">
+                  <Download className="w-4 h-4 mr-2" />
+                  Resume
+                </a>
               </Button>
             </div>
 
@@ -143,11 +137,13 @@ const Navigation = () => {
                     </button>
                   ))}
                   <Button
-                    onClick={handleDownloadResume}
+                    asChild
                     className="mt-4 gradient-accent text-foreground"
                   >
-                    <Download className="w-4 h-4 mr-2" />
-                    Download Resume
+                    <a href="/resume.pdf" download="Rithvik-Malay-Resume.pdf">
+                      <Download className="w-4 h-4 mr-2" />
+                      Download Resume
+                    </a>
                   </Button>
                 </div>
               </SheetContent>
