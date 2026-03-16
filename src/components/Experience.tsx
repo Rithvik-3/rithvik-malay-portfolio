@@ -5,6 +5,20 @@ import { Calendar, MapPin, Briefcase, Sparkles, Star } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
+      role: "Student Strengths Coach",
+      company: "George Mason University - Center for the Advancement of Well-Being",
+      location: "Fairfax, USA",
+      period: "August 2025 – Present",
+      current: true,
+      gradient: "from-orange-500 to-yellow-500",
+      highlights: [
+        "Facilitate one-on-one strengths coaching sessions helping students identify and develop their CliftonStrengths.",
+        "Guide students in applying their strengths toward academic success, leadership development, and career growth.",
+        "Use Gallup strengths-based coaching frameworks to foster self-awareness and personal development.",
+        "Support student well-being and engagement through structured coaching conversations and reflective exercises."
+      ],
+    },
+        {
       role: "Alumni Data & Engagement Analyst",
       company: "George Mason University - Office of Advancement",
       location: "Fairfax, USA",
